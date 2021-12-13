@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SparksBanking" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryLightColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryLightColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@style/WindowAnimations</item>
+    </style>
+    <style name="WindowAnimations">
+        <item name="android:activityOpenEnterAnimation">@anim/entry_activity</item>
+        <item name="android:activityOpenExitAnimation">@anim/exit_activity</item>
+        <item name="android:activityCloseEnterAnimation">@anim/entry_activity</item>
+        <item name="android:activityCloseExitAnimation">@anim/exit_activity</item>
+    </style>
+    <style name="exampleToast">
+        <item name="stColorBackground">#689f38</item>
+        <item name="stTextColor">#000</item>
+        <item name="stIconStart">@drawable/ic_baseline_check_24</item>
+        <item name="stStrokeColor">#000</item>
+        <item name="stStrokeWidth">1dp</item>
+        <item name="stRadius">10dp</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stTextBold">true</item>
+    </style>
+    <style name="exampleToast1">
+        <item name="stColorBackground">#FF0000</item>
+        <item name="stTextColor">#000</item>
+        <item name="stIconStart">@drawable/ic_baseline_check_24</item>
+        <item name="stStrokeColor">#000</item>
+        <item name="stStrokeWidth">1dp</item>
+        <item name="stRadius">10dp</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stTextBold">true</item>
+    </style>
+</resources>
